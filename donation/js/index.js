@@ -17,7 +17,7 @@
 
 	var range = document.querySelector('input[type="range"]');
 	range.defaultValue = 0;
-	var button = document.getElementById('donateBtn');
+	//var button = document.getElementById('donateBtn');
 	var patches = [];
 	var patchLeft = document.querySelector('.shirt .patch.left');
 	var patchCenter = document.querySelector('.shirt .patch.center');
@@ -56,7 +56,7 @@
 	  var current = 0;
 	  var newVal = range.value;
 	  if(newVal > 0) {
-	    addClass(button,"appear");
+	    //addClass(button,"appear");
 	    //Remove the Left Patch
 	    if(newVal >= 10 && newVal < 20 && newVal >= prev){
 	        current = 0;
@@ -215,7 +215,7 @@
 	    }
 	    //Add everythingx
 	    } else {
-	    removeClass(button,"appear");
+	    //removeClass(button,"appear");
 		    for(let i in patches){
 		    	if(i <= 6){
 			        addClass(patches[i],"ap-left");

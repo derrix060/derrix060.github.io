@@ -93,7 +93,12 @@
             <h4>Quero ajudar com: <span class="value">R$0</span></h4>
             <input type="range" min="0" max="100" step="10" value="0"/>
           </div>
-          <a href="#infos" data-scroll id="donateBtn">DOAR</a>
+          <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+            <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+            <input type="hidden" name="currency" value="BRL" />
+            <input type="hidden" name="receiverEmail" value="azobrasil@gmail.com" />
+            <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacoes/120x53-doar-preto.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+          </form>
         </div>
       </div>
     </div>
