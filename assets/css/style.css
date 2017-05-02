@@ -247,6 +247,13 @@ img {
 
 
 
+/*
+    Blockquote
+*/
+.blockquote-reverse, blockquote.pull-right{
+    border-right: 5px solid #85af4b;
+}
+
 
 /* ----------------------------------------------------------------------------------------
 *                               02. Navigation area css
@@ -367,6 +374,24 @@ img {
 /* ----------------------------------------------------------------------------------------
 *                               04. About area css
 * ---------------------------------------------------------------------------------------*/
+.about-area.img-bg {
+
+    background-image: url(../img/work-bg.jpg);  
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.about-area:before {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background: rgba(255, 255, 255, 0.85);
+}
 
 
 .about-area {
@@ -419,166 +444,9 @@ img {
 }
 
 
-
-/* ----------------------------------------------------------------------------------------
-*                                   05. Service area css
-* --------------------------------------------------------------------------------------- */
-
-.service-area {
-}
-
-.single-service {
-    padding: 20px;
-    transition: 0.2s ease-out;
-    text-align: center;
-    border: 1px solid transparent;
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-}
-
-.single-service i.fa {
-    margin-right: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-    line-height: 68px;
-    font-size: 30px;
-    border-radius: 50px;    
-    background-color: #85af4b;
-    color: #fff;
-    clear: both;
-}
-
-.single-service:hover {
-    border: 1px solid #85af4b;
-}
-
-.single-service:hover i.fa {
-    background-color: #fff;
-    color: #85af4b;
-    border: 1px solid #85af4b;
-}
-
-.single-service h3{
-    display: block;
-}
-
-.single-service p {
-    margin-top: 10px;
-    text-align: left;
-}
-
-
-
-
-/* ----------------------------------------------------------------------------------------
-*                               04. Process area css
-* ---------------------------------------------------------------------------------------*/
-.process-area {
-    background-image: url(../img/work-bg.jpg);  
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    position: relative;
-}
-
-.process-area:before {
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    background: rgba(255, 255, 255, 0.8);
-}
-
-.process-box {
-    position: relative;
-    margin-bottom: 25px;
-}
-
-@media (min-width: 1200px) {
-    .process-box {
-        padding: 0 30px;
-    }
-}
-
-.number {
-    border: 1px solid #85af4b;
-    color: #fff;
-    background: #85af4b;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    border-radius: 50px;
-    position: relative;
-    margin-bottom: 25px;
-}
-
-.process-box:before {
-    position: absolute;
-    content: '';
-    top: 25px;
-    left: 90px;
-    width: 100px;
-    text-align: right;
-    line-height: 3px;
-    height: 3px;
-    color: #85af4b;
-    border-bottom: 3px dashed #85af4b;
-    transform: translate( 0, -50%);
-    -ms-transform: translate( 0, -50%);
-    -webkit-transform: translate( 0, -50%);
-}
-
-.process-box:after {
-    position: absolute;
-    content: '\f0a9';
-    font-family: fontAwesome;
-    font-size: 30px;
-    top: 25px;
-    left: 50%;
-    width: 170px;
-    text-align: right;
-    line-height: 3px;
-    height: 3px;
-    color: #85af4b;
-    transform: translate( -50%, -50%);
-    -ms-transform: translate( -50%, -50%);
-    -webkit-transform: translate( -50%, -50%);
-}
-
-.process-box.last:after {
-    content: '\f058';
-}
-
-.process-box p{}
-
-
 /* ----------------------------------------------------------------------------------------
 *                               06. Portfolio/work area css
 * --------------------------------------------------------------------------------------- */
-.work-area.img-bg {
-
-    background-image: url(../img/work-bg.jpg);  
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    position: relative;
-}
-
-.work-area:before {
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    content: "";
-    position: absolute;
-    background: rgba(255, 255, 255, 0.9);
-}
 
 .row.fix{
     display:flex;
