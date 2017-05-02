@@ -591,15 +591,17 @@ img {
 }
 
 .work-items {
+    /*
     margin-top: 20px;
     margin-right: -10px;
     margin-left: -10px;
+    */
 }
 
 .work-items .item {
     position: relative;
     overflow: hidden;
-    margin: 5px -10px;
+    /*margin: 5px -10px;*/
 }
 
 .work-items .item h3{
