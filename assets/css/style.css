@@ -318,7 +318,7 @@ img {
     min-height: 300px;
     /*max-height: 650px;*/
     position: relative;
-    background-image: url(../img/header-bg.jpeg);
+    background-image: url(../img/header-waves.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
