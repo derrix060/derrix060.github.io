@@ -602,9 +602,12 @@ img {
     margin: 5px -10px;
 }
 
+.work-items .item h3{
+    text-align: center;
+}
+
 .work-items .item img {
-    width: 100%;
-    width: 100%;
+    height: auto;
     transition: 0.8s ease-out;
 }
 
