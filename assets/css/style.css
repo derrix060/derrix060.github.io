@@ -696,7 +696,6 @@ img {
     color: #85af4b;
 }
 
-.in_name:before {content: '\f007';}
 .in_email:before {content: '\f1d8';}
 .in_message:before {content: '\f0e0';}
 
@@ -704,24 +703,6 @@ img {
     padding-top: 10px;
     height: 115px;
 }
-
-.success {
-    background: #fff none repeat scroll 0 0;
-    color: #50B948;
-    font-weight: 700;
-    padding: 20px;
-    text-align: center;
-}
-
-.error {
-    background: #fff none repeat scroll 0 0;
-    color: #85af4b;
-    font-weight: 700;
-    padding: 20px;
-    text-align: center;
-}
-
-
 
 
 /* ----------------------------------------------------------------------------------------
