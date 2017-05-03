@@ -719,11 +719,6 @@ img {
     color: inherit;
 }
 
-@media (min-width: 768px) {
-    .social-links{
-        float: right;
-    }
-}
 
 .social-links li {
     list-style: none;
@@ -750,6 +745,9 @@ img {
 }
 
 @media (max-width: 767px) {
+    .social-links{
+        float: right;
+    }
     .footer-area {
         text-align: center;
     }
